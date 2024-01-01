@@ -25,3 +25,24 @@ function upDate(previewPic){
         document.getElementById('image').style.backgroundImage = "url('')";
         document.getElementById('image').innerHTML= 'Hover over an image below to display here.';
        }
+/* Another version
+       function upDate(previewPic){
+     
+         let image = previewPic.src;
+          document.getElementById("image").style.backgroundImage = "url('" + image +"')";
+         
+          let text = previewPic.alt;
+         document.getElementById("image").innerHTML = text;
+         
+         
+           }
+       
+           function unDo(){
+    
+           document.getElementById("image").style.backgroundImage = "url('" + null +"')";
+           
+           document.getElementById("image").innerHTML = "Hover over an image below to display here.";
+           
+        }
+        */
+           
